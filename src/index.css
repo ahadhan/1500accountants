@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  /* Backgrounds */
+  --color-bg: #0b0f14;         /* dark blueish gray (main background) */
+  --color-bg-alt: #1a1f29;     /* slightly lighter surface */
+
+  /* Text */
+  --color-text: #ffffff;       /* primary text */
+  --color-text-muted: #9ca3af; /* secondary text */
+
+  /* Buttons */
+  --color-btn-dark: #ffffff;   /* light button on dark bg */
+  --color-btn-dark-text: #0b0f14; /* text color for light button */
+  
+  --color-btn-light: #0b0f14;  /* dark button on light bg */
+  --color-btn-light-text: #ffffff; /* text color for dark button */
+
+  /* Borders */
+  --color-border: #2d3748;
+  
+  /* Font */
+  --font-sans: "Inter", ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+
+  /* Accent / Brand */
+  --color-accent: #10b981;        /* teal/emerald highlight */
+  --color-accent-hover: #059669;  /* darker shade for hover */
+
+  /* Card surfaces */
+  --color-card: #111827;          /* dark card background */
+  --color-card-alt: #1f2937;      /* alt card surface */
+
+  /* Headings (if you want slightly different tone) */
+  --color-heading: #f9fafb;       
+
+  /* Utility */
+  --radius-base: 0.75rem;         /* rounded-xl default */
+  --shadow-card: 0 4px 12px rgba(0,0,0,0.3);
+}
+  
