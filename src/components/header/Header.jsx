@@ -64,7 +64,7 @@ export default function Navbar() {
         {/* Desktop CTA */}
         <a
           href="#contact"
-          className="hidden rounded-lg bg-btn-dark px-4 py-2 text-btn-dark-text font-medium md:inline-block"
+          className="hidden rounded-lg bg-blue-500 px-4 py-2 text-white font-medium md:inline-block hover:bg-white hover:text-blue-500 tansition duration-300"
         >
           Free Consultation
         </a>
