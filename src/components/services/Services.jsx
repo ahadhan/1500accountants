@@ -55,7 +55,7 @@ export default function Services() {
     <section className='w-full py-20 text-text bg-bg'>
       <div className='max-w-6xl mx-auto px-4'>
         <div className='text-4xl font-bold text-center mb-12'>
-        <h2 className='text-3xl md:text-4xl font-bold text-center mb-10'>Our Services</h2>
+        <h2 className='text-3xl md:text-4xl font-bold text-center mb-16'>Our Services</h2>
 
         {/* Carousel Container */}
         <div className="relative overflow-hidden">
@@ -67,11 +67,11 @@ export default function Services() {
                   // style={{background: service.gradient}}
                 >
                   <div>
-                    <h3 className='text-2xl font-bold text-white mb-4 '>{service.title}</h3>
+                    <h3 className='text-5xl font-bold text-blue-500 mb-4 '>{service.title}</h3>
                     <p className='text-white text-opacity-90 text-lg'>{service.desc}</p>
 
                   </div>
-                  <button className='mt-6 text-sm p-2 rounded-2xl bg-white text-black bg-opacity-90 hover:backdrop-blur-sm transition w-fit'>
+                  <button className='mt-6 text-sm p-4 border-2 border-blue-500 rounded-2xl bg-white text-black bg-opacity-90 hover:backdrop-blur-sm transition w-fit'>
                     Learn More
                   </button>
                 </div>

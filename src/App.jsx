@@ -5,7 +5,9 @@ import Services from './components/services/Services'
 import Industries from './components/industries/Industries'
 import Process from './components/process/Process'
 import Contact from './components/contact/contact'
+import ScheduleForm from './components/scheduleForm/scheduleForm'
 import Footer from './components/footer/Footer'
+import FloatingWhatsappButton from './components/whatsappButton/WhatsappButton'
 import './index.css'
 
 function App() {
@@ -15,9 +17,11 @@ function App() {
       <Header />
       <div>
         <Hero />
+        <FloatingWhatsappButton/>
         <Services />
         <Industries />
         <Process />
+        <ScheduleForm />
         <Contact />
         <Footer/>
       </div>

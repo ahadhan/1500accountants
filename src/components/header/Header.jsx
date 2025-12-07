@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
+import Logo from "../../assets/images/logo.png";
 
 const NAV_ITEMS = [
   { label: "Services", href: "#services" },
@@ -43,9 +44,9 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
         {/* Brand */}
         <div className="flex items-center gap-8">
-        <a href="#home" className="flex items-center gap-2">
-          <span className="inline-block h-8 w-8 rounded-lg bg-btn-dark" />
-          <span className="text-text font-semibold tracking-tight">LedgerPath</span>
+        <a href="#home" className="flex items-center ">
+          <img src={Logo} alt="Logo" className="w-15"/>
+          <span className="text-text font-semibold tracking-tight">1-500 Accountants</span>
         </a>
 
         {/* Desktop nav */}
@@ -63,7 +64,7 @@ export default function Navbar() {
 </div>
         {/* Desktop CTA */}
         <a
-          href="#contact"
+          href="#scheduleForm"
           className="hidden rounded-lg bg-blue-500 px-4 py-2 text-white font-medium md:inline-block hover:bg-white hover:text-blue-500 tansition duration-300"
         >
           Free Consultation
@@ -139,7 +140,7 @@ export default function Navbar() {
               </ul>
 
               <a
-                href="#contact"
+                href="#scheduleForm"
                 onClick={() => setOpen(false)}
                 className="mt-4 inline-flex w-full items-center justify-center rounded-lg bg-btn-dark px-4 py-3 text-btn-dark-text font-semibold"
               >
@@ -148,7 +149,7 @@ export default function Navbar() {
             </nav>
 
             <div className="mt-auto p-4 text-xs text-text-muted">
-              © {new Date().getFullYear()} LedgerPath
+              © {new Date().getFullYear()} 1-500 Accountants
             </div>
           </aside>
         </>,
