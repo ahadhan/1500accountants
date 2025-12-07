@@ -28,10 +28,10 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="bg-bg-alt w-auto rounded-2xl h-auto m-4">
-        <div className="image">
+      <div className="bg-bg-alt w-auto rounded-2xl h-auto m-4 z-0">
+        <div className="image relative">
           <img src={HeroImg} alt="Hero Image" className="w-full h-auto " />
-          <img src={Shapes} alt="Shapes" className=''/>
+          <img src={Shapes} alt="Shapes" className='absolute -top-30 -right-60 z-10'/>
         </div>
       </div>
     </section>
