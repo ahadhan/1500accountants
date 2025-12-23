@@ -49,7 +49,9 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section className="w-full py-20 text-text bg-bg-alt">
+    <section 
+    id="contact"
+    className="w-full py-20 text-text bg-bg-alt">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
           Contact Us
